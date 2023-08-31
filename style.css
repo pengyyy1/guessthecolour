@@ -26,6 +26,8 @@ h1{
     display: inline-block;
     cursor: pointer;
     transition:all 0.8s ease;
+    text-align: center;
+    align-items: stretch;
   }
   
   .colorButton:hover {
