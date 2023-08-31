@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Colour!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon-16x16.png">
+    <link rel="manifest" href="Images/site.webmanifest">
+</head>
+
+<body>
+<h1>Guess The Color!</h1>
+<hr>
+<h3>Can You Guess The RGB Color?</h3>
+<h2 id="colorValue"></h2>
+
+<div id="container">
+<button class="colorButton"></button> 
+<button class="colorButton"></button> 
+<button class="colorButton"></button> 
+</div>
+
+<h2 id="answer"></h2>
+<button class="reset" onclick="game()">Reset</button>
+<script src="index.js"></script>
+</body>
